@@ -9,7 +9,7 @@ public class TargetSliderController : MonoBehaviour
     public Slider greenSlider;
     public Slider blueSlider;
 
-    // Textos dos sliders
+    // Textos dos sliders e valores RGB
     public Text redValueText;
     public Text greenValueText;
     public Text blueValueText;
@@ -62,6 +62,7 @@ public class TargetSliderController : MonoBehaviour
         blueSlider.gameObject.SetActive(true);
     }
 
+    // Função chamada quando o target de cor RGB é detectado
     public void OnRGBTargetFound()
     {
         RGBValueText.gameObject.SetActive(true);
@@ -77,13 +78,15 @@ public class TargetSliderController : MonoBehaviour
 
     }
 
-    // Atualiza os textos dos sliders com os valores atuais (0-255)
+    // Atualiza os textos com os valores atuais (0-255)
     private void UpdateSliderValueTexts()
     {
         redValueText.text = ((int)redSlider.value).ToString();
         RGBRedValueText.text = ((int)redSlider.value).ToString();
+
         greenValueText.text = ((int)greenSlider.value).ToString();
         RGBGreenValueText.text = ((int)greenSlider.value).ToString();
+        
         blueValueText.text = ((int)blueSlider.value).ToString();
         RGBBlueValueText.text = ((int)blueSlider.value).ToString();
     }

@@ -7,8 +7,6 @@ public class AppController : MonoBehaviour
     public void ExitApp()
     {
         Debug.Log("Sair do aplicativo.");
-        
-        // Funciona apenas em builds, não no editor do Unity
         Application.Quit();
     }
 
@@ -16,8 +14,6 @@ public class AppController : MonoBehaviour
     public void RestartApp()
     {
         Debug.Log("Reiniciando o aplicativo.");
-        
-        // Carrega a cena atual novamente
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

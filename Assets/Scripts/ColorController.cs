@@ -20,7 +20,7 @@ public class ColorController : MonoBehaviour
 
     void UpdateColor()
     {
-        // Inicializa as cores com o máximo, exceto o canal controlado pelo objeto
+        // Inicializa as cores com o mínimo, exceto o canal controlado pelo objeto
         float red = isRed ? colorValue / 255f : 0f;
         float green = isGreen ? colorValue / 255f : 0f;
         float blue = isBlue ? colorValue / 255f : 0f;
