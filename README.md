@@ -23,7 +23,7 @@ Este projeto foi desenvolvido como parte do componente de <strong>Introdução a
 </p>
 
 <p align="center">
-O projeto explora, de forma simples, lúdica e divertida, a manipulação das cores RGB. Altere cada aspecto da cor individualmente e veja o resultado final em realidade aumentada através do seu celular. Veja a <a src="https://www.figma.com/slides/iNyG9G8XjcmeHMPretXWJK/Explorando-RGB-com-Realidade-Aumentada?node-id=56-10&t=6FfLPKMGse3LEs65-1">apresentação de slides</a> para conhecer melhor o projeto e seu desenvolvimento.
+O projeto explora, de forma simples, lúdica e divertida, a manipulação das cores RGB. Altere cada aspecto da cor individualmente e veja o resultado final em realidade aumentada através do seu celular. Veja a <a href="https://www.figma.com/slides/iNyG9G8XjcmeHMPretXWJK/Explorando-RGB-com-Realidade-Aumentada?node-id=56-10&t=6FfLPKMGse3LEs65-1">apresentação de slides</a> para conhecer melhor o projeto e seu desenvolvimento.
 </p>
 
 <h2 id="tecnologias">🚀 Tecnologias</h2>
